@@ -3,11 +3,15 @@
 
 # Except dotfiles, license, and readme.
 !/.gitignore
-!README.md
-!LICENSE
+!/README.md
+!/LICENSE
 !/.config
 !/.termux/
 !/.zshrc
 
 .config/github-copilot
-.config/tmux/plugins
+
+#
+.config/tmux/plugins/*
+!.config/tmux/plugins/tpm
+
