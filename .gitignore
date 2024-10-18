@@ -1,0 +1,13 @@
+# Ignore all files in the home directory.
+/*
+
+# Except dotfiles, license, and readme.
+!/.gitignore
+!README.md
+!LICENSE
+!/.config
+!/.termux/
+!/.zshrc
+
+.config/github-copilot
+.config/tmux/plugins
