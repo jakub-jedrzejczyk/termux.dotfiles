@@ -13,7 +13,7 @@ alias .....="cd ../../../.."
 alias ll="ls -al"
 
 tmux-window-name() {
-	($HOME/.config/tmux/plugins/tmux-window-name/scripts/rename_session_windows.py &)
+	($HOME/.config/tmux/plugins/tmux-window-name/scripts/rename_session_windows.py &>/dev/null)
 }
 
 add-zsh-hook chpwd tmux-window-name
